@@ -14,6 +14,7 @@ jobs:
         run: |
           git config user.name “asauliya”
           git config user.email "ishusjn@gmail.com"
+          git clone https://github.com/asauliya/DUMMY2.git
           cd DUMMY2 
       - name: Run Bash script
         run: |
@@ -22,7 +23,5 @@ jobs:
       - name : git commit changes
         run: |
           git add .
-          git commit -m "NO COMMENT"
-          git push -u origin main
-    
+          git commit -m "NO COMMENT"    
     
